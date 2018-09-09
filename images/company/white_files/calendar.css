@@ -1,0 +1,308 @@
+.sees-dialog.calendar {
+	max-width: 660px;
+	min-width: 350px;
+}
+.calendar-container {
+	font-family: 'FFDINWebCondBold';
+	font-weight: 500;
+	text-align: center;
+	max-width: 660px;
+}
+
+.calendar-container .calendar-header {
+	margin-bottom: 5px;
+}
+
+.calendar-container .recipient-name {
+	font-size: 28px;
+	text-transform: uppercase;
+	padding: 11px 0;
+}
+
+.calendar-container .calendar-header .sub-header {
+	font-size: 28px;
+}
+
+.calendar-container .active-promotions > div,
+.calendar-container .approaching-discounts {
+	border-radius: 3px;
+	border: solid #a58336 1px;
+	text-align: center;
+	padding: 10px;
+	max-width: 90%;
+	font-family: 'FFDINWebCondBold';
+	font-weight: normal;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	text-transform: none;
+	color: #fff;
+	background: #a58336;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.calendar-container .alerts > * {
+	font-family: 'FFDINWebCondBold';
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	text-transform: none;
+	line-height: 18px;
+	color: #c01111;
+	width: 80%;
+	margin: 0 auto;
+	padding: 5px 10px;
+}
+
+.calendar-container .alerts .limitedtime {
+	color: #000;
+}
+
+.shipping-calendar {
+	font-size: 16px;
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid #000;
+	padding: 10px;
+}
+
+.shipping-calendar .table-layout {
+	width: 98%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.shipping-calendar .weekdays > *,
+.shipping-calendar .calendar-week > * {
+	text-align: center;
+	vertical-align: middle;
+	border-bottom: 1px solid #CCC;
+}
+.shipping-calendar .weekdays > * {
+	padding: .25em;
+}
+.shipping-calendar .calendar-nav {
+	margin-bottom: 20px;
+}
+
+.shipping-calendar .calendar-nav > * {
+	vertical-align: top;
+	line-height: 1;
+	text-transform: uppercase;
+	width: calc(100vw / 3);
+}
+.calendar-nav .current {
+	font-size: 1.10em;
+}
+.calendar-nav .prev, 
+.calendar-nav .next {
+	cursor: pointer;
+	font-family: 'AmericanTypewriterStd-Med';
+	font-size: 14px;
+}
+
+.calendar-nav .prev {
+	text-align: left;
+}
+
+.calendar-nav .next {
+	text-align: right;
+}
+
+.calendar-nav .month {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.calendar-nav .prev:hover, 
+.calendar-nav .next:hover,
+.details-ctnr a.note:hover {
+	color: #A58336;
+}
+
+.calendar-nav .icon-arrow_l.icon-after::after,
+.calendar-nav .icon-arrow_r.icon-after::after {
+	font-size: 12px;
+}
+
+.calendar-nav .disabled,
+.calendar-nav .disabled .month {
+	color: #CCC;
+	cursor: auto;
+	text-decoration: none;
+}
+
+.calendar-nav .disabled:hover {
+	color: #CCC;
+}
+
+.shipping-calendar .calendar-week > *,
+.shipping-calendar .weekdays > * {
+	width: 14.2857142%;
+}
+
+.shipping-calendar .calendar-day > div {
+	padding: 5px 0;
+}
+.shipping-calendar .calendar-day.disabled {
+	color: #CCC;
+}
+.shipping-calendar .calendar-day.range {
+	background: #e6e6e6;
+} 
+.shipping-calendar .calendar-day.selected > div {
+	font-weight: bold;
+}
+.shipping-calendar .calendar-day.expedited.selected > div {
+	font-weight: bold;
+	box-shadow: inset 0 0 0 1px #a58336;
+}
+.shipping-calendar .calendar-day.standard.selected > div {
+	background: #e6e6e6;
+}
+.shipping-calendar .calendar-day.deliverable > div:hover {
+	box-shadow: inset 0 0 0 1px #a58336;
+}
+.shipping-calendar .calendar-day.discounted {
+	color: #a58336;
+}
+.shipping-calendar .calendar-day .cost {
+	padding: 8px 0;
+}
+.shipping-calendar .day-of-month {
+	font-family: 'AmericanTypewriterStd-Med';
+	font-size: 12px;
+}
+.shipping-calendar .cost {
+	font-family: 'FFDINWebCondBold'
+}
+
+.details-ctnr {
+	width: 100%;
+	text-align: center;
+	min-height: 200px;
+	padding-top: 15px;
+}
+
+.details-ctnr .note {
+	display: none;
+	font-family: 'FFDINWebCondBold';
+	text-align: center;
+	font-size: 13px;
+	letter-spacing: 0.5px;
+}
+.details-ctnr.wwp .note {
+	display: inline-block;
+}
+
+.details-ctnr a.note {
+	text-decoration: underline;
+}
+
+.method-details {
+	display: table;
+	margin: 0 auto;
+}
+
+.method-details .wwp-details {
+	display: none;
+}
+
+.method-details .method-ctnr {
+	padding: 5px 0;
+}
+
+.method-details .method {
+	padding: 10px 20px;
+}
+
+.method-details .method.standard {
+	background-color: #f2f2f2;
+	border-top: 2px solid #e3e3e3;
+    border-bottom: 2px solid #e3e3e3;
+}
+
+.method-details .method.expedited {
+	border: 1px solid #a58336;
+}
+
+.method-details .delivery-msg {
+	font-size: 20px;
+	margin-bottom: 6px;
+}
+
+.method-details .discounted .delivery-msg {
+	color: #a58336;
+}
+
+.sees-dialog .method-details button.button {
+	padding: 8px 10px;
+	font-size: 20px;
+}
+
+.sees-dialog .method-details button.button:hover {
+	background-color: #a58336;
+	color: #fff;
+}
+.sees-dialog.ui-dialog .ui-dialog-content.ad-callout {
+	font-family: 'FFDINWebCondBold';
+    font-weight: 500;
+	text-align: center;
+	padding: 0 30px 30px 30px;
+}
+.sees-dialog.ui-dialog .ui-dialog-content.ad-callout h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+	margin: 10px 0;
+}
+
+.ui-dialog-content.ad-callout .callout {
+	font-size: 18px;
+}
+
+.ui-dialog-content.ad-callout .cta {
+	padding: 15px 0;
+}
+
+.ui-dialog-content.ad-callout .bye button {
+	font-family: 'AmericanTypewriterStd-Med';
+    font-size: 14px;
+	text-transform: uppercase;
+	border: 0;
+	background: none;
+	text-decoration: underline;
+}
+
+.ui-dialog-content.ad-callout .bye button:hover {
+	color: #a58336;
+}
+
+.delivery-msg .delivery-dt {
+	white-space:nowrap;
+}
+
+@media only screen and (max-width: 640px) {
+	.calendar-container > header .sub-header {
+		font-size: 18px;
+	}
+	.calendar-container .active-promotions, 
+	.calendar-container .approaching-discounts {
+		margin-bottom: .25em;
+	}
+	.calendar-container h2 {
+	   padding: .25em 0;	
+	}
+	.calendar-container > header {
+		margin-bottom: 0;
+	}
+	.calendar-container .alerts > * {
+		width: 90%;
+		padding-top: 0;
+	}
+	.shipping-calendar .calendar-day .cost {
+		padding: 0;
+	}
+	.calendar-nav .month {
+		font-size: 12px;
+	}
+}
